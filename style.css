@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+}
+h1,
+h2 {
+  color: #333;
+}
+.section {
+  margin-bottom: 20px;
+}
+.question {
+  margin-bottom: 10px;
+}
+
+mover > mo {
+  width: 100%;
+  background-color: black;
+}
+
+mjx-container[jax='CHTML'][display='true'] {
+  display: inline-block;
+  margin: 0;
+  font-size: 1rem;
+}
+
+mjx-container {
+  margin: 0;
+}
