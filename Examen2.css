@@ -1,0 +1,55 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 2rem;
+}
+h1,
+h2 {
+  color: #333;
+}
+.section {
+  margin-bottom: 1rem;
+}
+.question {
+  margin-bottom: 0.5rem;
+  & p {
+    margin: 0.5rem;
+  }
+
+  & li {
+    margin: 0.5rem 0;
+  }
+}
+
+li {
+  display: flex;
+  align-items: center;
+
+  & span {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.text_math {
+  display: flex;
+
+  & .mjx-container {
+    width: min-content;
+  }
+}
+
+p {
+  & strong {
+    margin-right: 1rem;
+  }
+}
+
+mjx-container {
+  margin: 0rem !important;
+}
